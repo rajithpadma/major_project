@@ -203,4 +203,5 @@ if user_id:
         st.session_state.messages.append(("user", user_query))
         st.session_state.messages.append(("bot", bot_reply))
 
-        st.experimental_rerun()
+        st.rerun()
+
