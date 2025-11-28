@@ -11,8 +11,8 @@ import time
 # CONFIG (Replace with your keys)
 # ----------------------------
 MONGO_URI = "mongodb+srv://nexusteam751_db_user:TyPtleJnMk9up8Sc@product-database.6hm9ilm.mongodb.net/"
-MAIN_GEMINI_KEY = "AIzaSyBEtyBTP5sreIqit9Gvb1XyvIQZAgf7624"
-SUMMARY_GEMINI_KEY = "AIzaSyBGnFufYa4fkxpGi8xw0O5H_PBCxqAij74"
+MAIN_GEMINI_KEY = "AIzaSyBnAG-pp_wpfcuKZ1jJuQSxPkHXWrlnVoI"
+SUMMARY_GEMINI_KEY = "AIzaSyDbpMTDofVN9B6Pij9m_7nkU21SkDdnWuo"
 GEMINI_MODEL = "gemini-2.5-flash-lite"
 
 # ----------------------------
@@ -204,4 +204,5 @@ if user_id:
         st.session_state.messages.append(("bot", bot_reply))
 
         st.rerun()
+
 
