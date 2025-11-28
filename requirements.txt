@@ -1,0 +1,6 @@
+streamlit
+pymongo
+pymongo[srv]
+google-generativeai
+python-docx
+dnspython
